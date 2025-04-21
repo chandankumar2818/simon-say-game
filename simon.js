@@ -18,9 +18,9 @@ startBtn.addEventListener("click",function(){
 
 
 function gameFlash(btn){
-    btn.classList.add("flash");
-    setTimeout(function(){
-        btn.classList.remove("flash");
+    btn.classList.add("flash"); 
+    setTimeout(function()  {
+        btn.classList.remove("flash")  ;
     },300);
 }
 function userFlash(btn){
